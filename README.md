@@ -71,7 +71,7 @@ Budget App allows you to create cateories, and transactions based on these categ
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rails-3xzd.onrender.com)
+- [Live Demo Link](https://budget-app-fvow.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
