@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: Budegt_App_production
-  username: Budegt_App
-  password: <%= ENV["BUDEGT_APP_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
+  # database: Budegt_App_production
+  # username: Budegt_App
+  # password: <%= ENV["BUDEGT_APP_DATABASE_PASSWORD"] %>
