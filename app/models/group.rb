@@ -5,5 +5,5 @@ class Group < ApplicationRecord
   has_many :entities_groups, dependent: :destroy
   has_many :entities, through: :entities_groups, dependent: :destroy
 
-  validates :name, presence: true, length: {minimum: 3, too_short: 'Group name must be more than 3 characters long'}
+  validates :name, presence: true, length: { minimum: 3, too_short: 'Group name must be more than 3 characters long' }
 end
